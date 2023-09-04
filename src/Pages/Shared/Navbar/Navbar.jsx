@@ -43,13 +43,13 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-slate-500 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-slate-500 z-10 rounded-box w-52"
           >
             {navItems}
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost normal-case text-xl">
-          <h1 className='text-3xl'>Shopping <span className='text-red-500'>Cart</span></h1>
+          <h1 className='text-3xl'>Shoe <span className='text-red-500'>House</span></h1>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
