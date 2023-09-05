@@ -5,7 +5,7 @@ const Home = () => {
     const [allShoe, setAllShoe]= useState([]);
     
     useEffect(()=>{
-        fetch('http://localhost:5000/shoes')
+        fetch('https://simple-shopping-card-server.vercel.app/shoes')
         .then(res=>res.json())
         .then(data=>setAllShoe(data));
         
